@@ -1,6 +1,6 @@
 # EMSY_TP3_BBG
 
-Installation Linux
+INSTALLATION LINUX
 1: Dans une Vm windows utiliser le programme Win32 afin d'importer une image (.img) dans la carte SD fournie.
 
 2: Une fois l'image importée, brancher la carte SD dans le BBG, appuyer sur le bouton "USER" et brancher l'alimentation (Attention cette opération doit être éffectuée en même temps et peux prendre un certain temps au démarrage).
