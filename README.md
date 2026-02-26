@@ -10,4 +10,6 @@ Une fois l'opération bien effectuée le processus de flash est indiqué par un 
 Le BBG démarre son OS Linux stocké dans sa flash interne.
 
 REGLAGE IP STATIQUE  
-1: Brancher le BBG
+1: Brancher le BBG sur le réseau bleu.
+
+2:
