@@ -1,2 +1,57 @@
 Réponse aux questions
-Q1 : 
+Q1. Comment pouvez-vous déterminer cette adresse IP ? 
+
+Réponse :
+
+Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?  
+
+Réponse :
+
+Q3. Dans le modèle OSI, dans quelle(s) couche(s) se trouve ce protocole ?  
+
+Réponse :
+
+Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port utilisé côté serveur ?  
+
+Réponse :
+
+Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis une autre machine connectée au même réseau ? 
+
+Réponse :
+
+Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ?  Quelle(s) commande(s) utilisez-vous pour le déterminer ?
+
+Réponse :
+
+Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ? Qui a les droits d’écriture dessus ?
+
+Réponse : 
+
+Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?  
+
+Réponse :
+
+Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ? Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec sl ou cmatrix) ?
+
+Réponse :
+
+Q10. Sur le BBG, quelle(s) est/sont la/les commande(s) pour connaitre la configuration du réseau Ethernet ? 
+a. Quelle est l’adresse IP du BBG ?
+b. Quelle est le masque de sous réseau ?
+c. Quelle est l’adresse réseau ?
+d. Quelle est la passerelle par défaut ?
+e. Quelle est l’adresse MAC du BBG ?
+
+Réponse :
+
+Q11. Qu’est-ce qui s’affiche en retour ?  Commentez. 
+
+Réponse :
+
+Q12. Expliquez ce que fait cette commande. Qu’est-ce qui s’affiche en retour ?  Quel est format de la réponse ?  Faites le parallèle avec la réponse à la Q11. 
+
+Réponse :
+
+Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et Q12.  Commentez. 
+
+Réponse :
