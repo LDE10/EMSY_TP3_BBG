@@ -21,7 +21,7 @@ Réponse : Aller dans les commande windows, puis écrir "ping (adresse IP)".
 
 Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ?  Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 
-Réponse :
+Réponse : A l'ouverture on se trouve dans le /home/debian et pour le savoir utiliser la commande pwd.
 
 Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ? Qui a les droits d’écriture dessus ?
 
