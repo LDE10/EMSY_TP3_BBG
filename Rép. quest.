@@ -25,11 +25,11 @@ Réponse : A l'ouverture on se trouve dans le /home/debian et pour le savoir uti
 
 Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ? Qui a les droits d’écriture dessus ?
 
-Réponse : 
+Réponse : La commande pour créer un dossier est mkdir et pour les droit d'écriture seul l'administrateur peut le faire.
 
 Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?  
 
-Réponse :
+Réponse : 
 
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ? Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec sl ou cmatrix) ?
 
