@@ -33,7 +33,7 @@ Réponse : La fonction "cat" permet d'affiche tout le contenu du fichier.
 
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ? Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec sl ou cmatrix) ?
 
-Réponse :
+Réponse : La commande "apt list" permet lister tous les paquets disponibles et installés. La commande "sudo apt install".
 
 Q10. Sur le BBG, quelle(s) est/sont la/les commande(s) pour connaitre la configuration du réseau Ethernet ? 
 a. Quelle est l’adresse IP du BBG ?
