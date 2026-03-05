@@ -29,7 +29,7 @@ Réponse : La commande pour créer un dossier est mkdir et pour les droit d'écr
 
 Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?  
 
-Réponse : 
+Réponse : La fonction "cat" permet d'affiche tout le contenu du fichier.
 
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ? Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec sl ou cmatrix) ?
 
