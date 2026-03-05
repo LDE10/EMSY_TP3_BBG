@@ -5,19 +5,19 @@ Réponse : Grâce à un application nommé "Advanced IP Scanner"
 
 Q2. Quel est le protocole de communication permettant de vous connecter à distance au BBG ?  
 
-Réponse :
+Réponse : Protocole SSH, c'est une méthode sécurisée permettant d'accéder à distance à une machine, d'exécuter des commandes et de transférer des fichiers.
 
 Q3. Dans le modèle OSI, dans quelle(s) couche(s) se trouve ce protocole ?  
 
-Réponse :
+Réponse : Le SSH se trouve dans la couche 7 mais s'exécute dans la couche 4 en parallèle du TCP.
 
 Q4. Sur quel protocole de couche 4 s’appuie ce protocole ? Quel est le port utilisé côté serveur ?  
 
-Réponse :
+Réponse : Le protocole SSH s'exécute en parallèle du protocole TCP. Le port par défaut utilisé côté serveur est le port 22.
 
 Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis une autre machine connectée au même réseau ? 
 
-Réponse :
+Réponse : Aller dans les commande windows, puis écrir "ping (adresse IP)".
 
 Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ?  Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 
