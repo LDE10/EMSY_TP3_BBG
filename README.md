@@ -16,4 +16,3 @@ REGLAGE IP STATIQUE
 Une fois l'installasion éffectué copier l'application dans l'ordinateur.
 
 3: 
-
