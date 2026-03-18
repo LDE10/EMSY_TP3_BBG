@@ -48,9 +48,9 @@ e. Quelle est l’adresse MAC du BBG ?
 Réponse :
 La commande "ip addr show eth0" est utilisé pour affiché en détail la configuration résaux Ethernet
 a) 10.228.134.225
-b)
-c)
-d)
+b) 10.228.134.225/24 le masque sous réseau est sous la notation"CIDR( Classless Inter Domain Routing).Le /24 indique 24 bit à 1, soit 255.255.255.0
+c) 127.0.0.1
+d) 10.228.134.1
 e) b4:10:7b:74:b6:36
 
 Q11. Qu’est-ce qui s’affiche en retour ?  Commentez. 
