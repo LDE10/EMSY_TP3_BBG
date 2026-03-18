@@ -21,26 +21,31 @@ REGLAGE IP STATIQUE
 <img width="645" height="425" alt="image" src="https://github.com/user-attachments/assets/0c21642a-ba1b-47dc-81c6-41af39b69213" />
 
 6: Il faut configurer une adresse IP statique
+
 <img width="643" height="422" alt="image" src="https://github.com/user-attachments/assets/d556ce3a-1876-4a7f-a009-fe82c7d6cd83" />
 
 7: Pour sauvegarder le fichier li faut redémarer le BBG avec la commande "Sudo reboot"
 
 8: Ouvrir Putty et inserer l'adress ip 10.228.134.255
+
 <img width="647" height="543" alt="image" src="https://github.com/user-attachments/assets/9cc96b6e-b6cd-445d-8cbd-12cd5e1016a3" />
 
 9: Crer un répertoire avec nos initiales
+
 <img width="555" height="175" alt="image" src="https://github.com/user-attachments/assets/10564d78-f23d-45c7-8cd0-2ea2ff1aff8c" />
 
 10: Etider un fichier texte avec la commande "vi" et le déplacer dans le bon répertoire avec la comande "mv"
 <img width="768" height="85" alt="image" src="https://github.com/user-attachments/assets/512f441e-cdcd-487e-9da8-63788ed193d4" />
 
 11: dans le navigateur accédez à http://checkip.dyndns.org
+
 <img width="547" height="189" alt="image" src="https://github.com/user-attachments/assets/4515f0db-f0a5-4247-ab34-850eba5e54fa" />
 
 12: On utilise la commande wget -qO- http://checkip.dyndns.org sur le BBG
 <img width="842" height="59" alt="image" src="https://github.com/user-attachments/assets/13d916f0-c2fe-4abc-852d-6774839a6af4" />
 
 Réponse aux questions
+
 Q1. Comment pouvez-vous déterminer cette adresse IP ? 
 
 Réponse : Grâce à un sniffer, nous avons utilisé application "Advanced IP Scanner"
@@ -71,6 +76,7 @@ Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ? Qui a les d
 
 Réponse : La commande utilisée pour créer un répertoire est "mkdir".
           Il n'y a que l'user (administrateur) ayant créer le répertoire, qui à les droits d'écriture.
+          
 <img width="813" height="543" alt="image" src="https://github.com/user-attachments/assets/ab677767-5b30-4164-9032-efbc88a6c1ac" />
 
 Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?  
@@ -79,6 +85,7 @@ Réponse : Dans le répertoire du fichier, La commande "cat <nom du fichier>" pe
 <img width="545" height="36" alt="image" src="https://github.com/user-attachments/assets/2d17a505-2ac6-4a64-a12a-f337ca178a1f" />
 
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ? Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec sl ou cmatrix) ?
+
 <img width="575" height="296" alt="image" src="https://github.com/user-attachments/assets/33f3482e-1cdf-4a41-a49c-c2853a3f68c2" />
 
 Réponse : La commande "apt list" permet lister tous les paquets disponibles et installés, sela permet de vérifier si le logiciel y figure. 
@@ -98,6 +105,7 @@ la commande ip a est utilisé pour connaitre les différente interface résaux
 la commande ifconfi est utilisée pour affiché les inteface résaux, mais il faut au préalable instaler le paquet "net-tools"
 
 a) 10.228.134.225
+
 <img width="733" height="236" alt="image" src="https://github.com/user-attachments/assets/f03f92b2-2331-4c08-8163-f05ea6e00410" />
 
 b) 10.228.134.225/24 le masque sous réseau est sous la notation"CIDR( Classless Inter Domain Routing).Le /24 indique 24 bit à 1, soit 255.255.255.0
@@ -105,6 +113,7 @@ c) 127.0.0.1
 <img width="837" height="180" alt="image" src="https://github.com/user-attachments/assets/db74e149-186d-49c8-9941-f32f48c6aa9a" />
 
 d) 10.228.134.1
+
 <img width="637" height="118" alt="image" src="https://github.com/user-attachments/assets/26e26660-be43-4ff4-8159-967eaab23d09" />
 
 e) b4:10:7b:74:b6:36
