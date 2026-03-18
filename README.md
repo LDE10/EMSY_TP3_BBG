@@ -2,6 +2,7 @@
 
 INSTALLATION LINUX
 1: Dans une Vm windows utiliser le programme Win32 afin d'importer une image (.img) dans la carte SD fournie.
+<img width="540" height="382" alt="image" src="https://github.com/user-attachments/assets/d734e362-2e7e-4993-bf5b-25c33c836d54" />
 
 2: Une fois l'image importée, brancher la carte SD dans le BBG, appuyer sur le bouton "USER" et brancher l'alimentation (Attention cette opération doit être éffectuée en même temps et peux prendre un certain temps au démarrage).
 Une fois l'opération bien effectuée le processus de flash est indiqué par un chenillard sur les leds, puis s'allument toute pour enfin s'éteindre.
@@ -10,13 +11,34 @@ Une fois l'opération bien effectuée le processus de flash est indiqué par un 
 Le BBG démarre son OS Linux stocké dans sa flash interne.
 
 REGLAGE IP STATIQUE  
-1: Brancher le BBG sur le réseau bleu.
+4: Brancher le BBG sur le réseau bleu.
+ Dans la même Vm windows télécharger l'application "Advanced IP Scanner", cette application va servir à pour lire l'adresse IP du BBG.
+ <img width="933" height="546" alt="image" src="https://github.com/user-attachments/assets/e9088828-df82-4b57-9b5b-b1b5498521e2" />
 
-2: Dans la même Vm windows télécharger l'application "Advanced IP Scanner", cette application va servir à pour lire l'adresse IP du BBG.
-Une fois l'installasion éffectué copier l'application dans l'ordinateur.
+   Ouvrir Putty et inserer l'adress ip 10.228.134.52
 
-3: 
+5: Il faut se connecter au BBG avec le nom USE(Debian) et le mot de passe (temppwd)
+<img width="645" height="425" alt="image" src="https://github.com/user-attachments/assets/0c21642a-ba1b-47dc-81c6-41af39b69213" />
 
+6: Il faut configurer une adresse IP statique
+<img width="643" height="422" alt="image" src="https://github.com/user-attachments/assets/d556ce3a-1876-4a7f-a009-fe82c7d6cd83" />
+
+7: Pour sauvegarder le fichier li faut redémarer le BBG avec la commande "Sudo reboot"
+
+8: Ouvrir Putty et inserer l'adress ip 10.228.134.255
+<img width="647" height="543" alt="image" src="https://github.com/user-attachments/assets/9cc96b6e-b6cd-445d-8cbd-12cd5e1016a3" />
+
+9: Crer un répertoire avec nos initiales
+<img width="555" height="175" alt="image" src="https://github.com/user-attachments/assets/10564d78-f23d-45c7-8cd0-2ea2ff1aff8c" />
+
+10: Etider un fichier texte avec la commande "vi" et le déplacer dans le bon répertoire avec la comande "mv"
+<img width="768" height="85" alt="image" src="https://github.com/user-attachments/assets/512f441e-cdcd-487e-9da8-63788ed193d4" />
+
+11: dans le navigateur accédez à http://checkip.dyndns.org
+<img width="547" height="189" alt="image" src="https://github.com/user-attachments/assets/4515f0db-f0a5-4247-ab34-850eba5e54fa" />
+
+12: On utilise la commande wget -qO- http://checkip.dyndns.org sur le BBG
+<img width="842" height="59" alt="image" src="https://github.com/user-attachments/assets/13d916f0-c2fe-4abc-852d-6774839a6af4" />
 
 Réponse aux questions
 Q1. Comment pouvez-vous déterminer cette adresse IP ? 
