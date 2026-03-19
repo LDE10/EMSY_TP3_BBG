@@ -140,3 +140,7 @@ Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et 
 
 Réponse : L'adresse du BBG est privé, elle est statyque.
           L'adresse au question 11 et 12 est public, elle est dynamique.
+Eratum:
+Q10 c) Valleur adresse réseau = masquage de l'adresse ip avec le masque de sous réseau, soit 10.228.134.0
+
+
