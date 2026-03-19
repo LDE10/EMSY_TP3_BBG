@@ -109,6 +109,7 @@ a) 10.228.134.225
 <img width="733" height="236" alt="image" src="https://github.com/user-attachments/assets/f03f92b2-2331-4c08-8163-f05ea6e00410" />
 
 b) 10.228.134.225/24 le masque sous réseau est sous la notation"CIDR( Classless Inter Domain Routing).Le /24 indique 24 bit à 1, soit 255.255.255.0
+
 c) 127.0.0.1
 
 <img width="837" height="180" alt="image" src="https://github.com/user-attachments/assets/db74e149-186d-49c8-9941-f32f48c6aa9a" />
