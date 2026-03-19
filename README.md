@@ -141,6 +141,8 @@ Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et 
 Réponse : L'adresse du BBG est privé, elle est statyque.
           L'adresse au question 11 et 12 est public, elle est dynamique.
 Eratum:
-Q10 c) Valleur adresse réseau = masquage de l'adresse ip avec le masque de sous réseau, soit 10.228.134.0
+Q10 c) Valleur adresse réseau = masquage de l'adresse ip avec le masque de sous réseau, soit 10.228.134.255 Masqué par 255.255.255.0 = 10.228.134.0
+    L'adress 127.0.0.1 représente le localhost (un serveur éxecuté sur notre propre ordinateur) c'ette adress IP est généralement réservé à un loopback.
+    Pour résumé, c'est l'adresse d'une interface virtuel. Cette interface est utilisé pour tester des programmes et des applications web, on peut aussi l'utiliser pour bloquer des sites web dangereux.
 
 
