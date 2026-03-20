@@ -12,7 +12,7 @@ Le BBG démarre son OS Linux stocké dans sa flash interne.
 
 REGLAGE IP STATIQUE  
 4: Brancher le BBG sur le réseau bleu.
- Dans la même Vm windows télécharger l'application "Advanced IP Scanner", cette application va servir à pour lire l'adresse IP du BBG.
+ Dans la même Vm windows télécharger l'application "Advanced IP Scanner", cette application va servir à lire l'adresse IP du BBG.
  <img width="933" height="546" alt="image" src="https://github.com/user-attachments/assets/e9088828-df82-4b57-9b5b-b1b5498521e2" />
 
    Ouvrir Putty et inserer l'adress ip 10.228.134.52
