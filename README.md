@@ -34,7 +34,7 @@ REGLAGE IP STATIQUE
 
 <img width="555" height="175" alt="image" src="https://github.com/user-attachments/assets/10564d78-f23d-45c7-8cd0-2ea2ff1aff8c" />
 
-10: Etider un fichier texte avec la commande "vi" et le déplacer dans le bon répertoire avec la comande "mv"
+10: Editer un fichier texte avec la commande "vi" et le déplacer dans le bon répertoire avec la comande "mv"
 <img width="768" height="85" alt="image" src="https://github.com/user-attachments/assets/512f441e-cdcd-487e-9da8-63788ed193d4" />
 
 11: dans le navigateur accédez à http://checkip.dyndns.org
