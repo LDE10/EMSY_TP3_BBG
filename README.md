@@ -1,4 +1,4 @@
-# EMSY_TP3_BBG
+# EMSY_TP3_BBG LDE_SPY
 
 INSTALLATION LINUX
 1: Dans une Vm windows utiliser le programme Win32 afin d'importer une image (.img) dans la carte SD fournie.
