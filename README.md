@@ -160,11 +160,28 @@ Le scripte fourni dans le support de cours, est lu par l'interpréteur(python3) 
 
 15. Documentation du code
 
-
 Eratum:
 Q10 c) Valleur adresse réseau = masquage de l'adresse ip avec le masque de sous réseau, soit 10.228.134.255 Masqué par 255.255.255.0 = 10.228.134.0
     L'adress 127.0.0.1 représente le localhost (un serveur éxecuté sur notre propre ordinateur) c'ette adress IP est généralement réservé à un loopback.
     Pour résumé, c'est l'adresse d'une interface virtuel. Cette interface est utilisé pour tester des programmes et des applications web, on peut aussi l'utiliser pour bloquer des sites web dangereux.
+
+
+Partie B Automatisation
+
+-Enregistrement CSV
+Pour enregistrer nos valeur dans le fichier TemLog.csv, il convient d'abord de créer celui-ci dans le répertoire /home/debian avec la commande"touch TemLog.csv
+Verification après création:
+
+<img width="322" height="145" alt="Verification fichier csv" src="https://github.com/user-attachments/assets/5feba1eb-2f24-40c3-bb96-3bf32b1bec43" />
+
+Verification du script après execution du script:
+
+
+-Envoi d'E-MAIL
+
+
+-Execution Automatique
+
 
 
 
