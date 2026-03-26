@@ -140,9 +140,32 @@ Q13. Comparez l’adresse IP locale de votre BBG à celles trouvées aux Q11 et 
 
 Réponse : L'adresse du BBG est privé, elle est statyque.
           L'adresse au question 11 et 12 est public, elle est dynamique.
+
+13: Branchement du capteur sur le BBG
+Selon le datasheet du BBG il est conseil de brancher le capteur sur I2C Grove interface(Connecté au peripérique I2C2)
+<img width="1043" height="563" alt="Capture d’écran 2026-03-19 154251" src="https://github.com/user-attachments/assets/e7aa5ca7-2d4f-4552-9f3d-284034141ff0" />
+
+Q14. Le driver SHT4x s'occupe de faire le lien entre L'OS et le capteur.
+Nous avons procédez selon ce shéma bloc:
+
+<img width="1920" height="1080" alt="dw" src="https://github.com/user-attachments/assets/152d673e-23be-4aeb-9786-454dd82e3f99" />
+
+Le scripte fourni dans le support de cours, est lu par l'interpréteur(python3) ensuit selui ci va tranmettre le code en format linux sur le driver qui va piloter le capteur.
+1)Script fournis: tp_emsy.py
+2)Interpréteur python3: instalation avec la commande "sudo apt update && sudo install python3"
+3)Instalation du driver générale via la commande "sudo apt-get install sht4x"
+4)Instalation du driver plus spécifique pour une comunication "API" en l'OS et le capteur: sensirion-i2c-driver sensirion-i2c-sht via la comande "pip3 install sensirion-i2c-driver sensirion-i2c-sht"
+
+14. Conception du script Python
+
+15. Documentation du code
+
+
 Eratum:
 Q10 c) Valleur adresse réseau = masquage de l'adresse ip avec le masque de sous réseau, soit 10.228.134.255 Masqué par 255.255.255.0 = 10.228.134.0
     L'adress 127.0.0.1 représente le localhost (un serveur éxecuté sur notre propre ordinateur) c'ette adress IP est généralement réservé à un loopback.
     Pour résumé, c'est l'adresse d'une interface virtuel. Cette interface est utilisé pour tester des programmes et des applications web, on peut aussi l'utiliser pour bloquer des sites web dangereux.
+
+
 
 
