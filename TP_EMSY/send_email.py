@@ -12,6 +12,8 @@ import datetime                                                             # Li
 import math                                                                 # Library for math stuff
 import csv                                                                  # Library for csv handling stuff
 
+import send_email
+
 from sensirion_i2c_driver import I2cConnection                              # Sensor driver
 from sensirion_i2c_sht.sht4x import Sht4xI2cDevice                          # Sensor driver
 from sensirion_i2c_driver.linux_i2c_transceiver import LinuxI2cTransceiver  # Sensor driver
@@ -75,4 +77,7 @@ if __name__ == "__main__":  # Runs only if called as a script but not if importe
     date_heur = datetime.datetime.now()                                                                          #Lecture de la date
     ligne = [date_heur.strftime("%d-%m-%Y"), date_heur.strftime("%H:%M"), temperature, humidity, dew_point]      #Met tous les inofrmation dans un tableau
     csv_write_row('TempLog.csv', ligne)                                                                          #Appel de la fonction d'automatisation avec le nom du dossier et le tableau comme infos d'entrée
+    
+    if temperature > 15:
+        send_email(receiver, subject, message)
     
