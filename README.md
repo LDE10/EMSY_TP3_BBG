@@ -174,10 +174,29 @@ Verification après création:
 
 <img width="322" height="145" alt="Verification fichier csv" src="https://github.com/user-attachments/assets/5feba1eb-2f24-40c3-bb96-3bf32b1bec43" />
 
-Verification du script après execution du script:
+Verification du script après execution de celui-ci:
 
 
 -Envoi d'E-MAIL
+Pour envoyer le mail, il suffit de moddifier le fichier "send_email.py" qui nous est fournit.
+Il est conseiller de le modifier et de le tester avec visual studio avant de le téléverser dans le BBG.
+1) Ouverture du fichier dans visualstudio en python.
+2) Modification des éléments entre parentèse.
+
+<img width="444" height="95" alt="image" src="https://github.com/user-attachments/assets/0f3f9fc5-c6a4-4ae2-96fe-af3ad05a8e0c" />
+
+2.1) Explication sur ce qui doit être modifié.
+- server = smtplib.SMTP("mail.etml-es.ch") --- Veuillez indiquer le nom de serveur ainsi que sont port sortant (587).
+- server.login("user","password") --- Veuillez indiquer l'adresse mail de réception ainsi qu'un code appareil créer dans cette boite mail.
+- sender = "XXX@etml-es.ch" --- Veillez indiquer l'adresse d'envoie.
+
+2.2) RExemple de modification.
+
+<img width="673" height="115" alt="image" src="https://github.com/user-attachments/assets/1c49fc0e-5c79-4cc4-a223-85682b3cdb97" />
+
+2.3) Resultats devant être obtenu après modification sur la boîte mail.
+
+<img width="626" height="308" alt="image" src="https://github.com/user-attachments/assets/2100d10e-12ef-43d7-8798-015807926238" />
 
 
 -Execution Automatique
