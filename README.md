@@ -169,7 +169,9 @@ Q10 c) Valleur adresse réseau = masquage de l'adresse ip avec le masque de sous
 Partie B Automatisation
 
 -Enregistrement CSV
-Pour enregistrer nos valeur dans le fichier TemLog.csv, il convient d'abord de créer celui-ci dans le répertoire /home/debian avec la commande"touch TemLog.csv
+Pour enregistrer nos valeur dans le fichier TempLog.csv, il convient d'abord de créer celui-ci dans le répertoire /home/debian avec la commande "touch TempLog.csv"
+On peut aussi le faire avec la commande "nano TempLog.csv". Nous avons utiliser la commande touch par curiosité.
+
 Verification après création:
 
 <img width="322" height="145" alt="Verification fichier csv" src="https://github.com/user-attachments/assets/5feba1eb-2f24-40c3-bb96-3bf32b1bec43" />
@@ -186,7 +188,7 @@ Il est conseiller de le modifier et de le tester avec visual studio avant de le 
 <img width="444" height="95" alt="image" src="https://github.com/user-attachments/assets/0f3f9fc5-c6a4-4ae2-96fe-af3ad05a8e0c" />
 
 2.1) Explication sur ce qui doit être modifié.
-- server = smtplib.SMTP("mail.etml-es.ch") --- Veuillez indiquer le nom de serveur ainsi que sont port sortant (587).
+- server = smtplib.SMTP("mail.etml-es.ch") --- Veuillez indiquer le nom de serveur ainsi que son port sortant (587).
 - server.login("user","password") --- Veuillez indiquer l'adresse mail de réception ainsi qu'un code appareil créer dans cette boite mail.
 - sender = "XXX@etml-es.ch" --- Veillez indiquer l'adresse d'envoie.
 
