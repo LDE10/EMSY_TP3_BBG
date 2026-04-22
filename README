@@ -17,7 +17,7 @@ Image 2
 
    Ouvrir Putty et inserer l'adress ip 10.228.134.52
 
-5: Il faut se connecter au BBG avec le nom USE(Debian) et le mot de passe (temppwd)
+5: Il faut se connecter au BBG avec le nom USE(debian) et le mot de passe (temppwd)
 Image 3
 
 6: Il faut configurer une adresse IP statique
