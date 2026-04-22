@@ -172,8 +172,7 @@ Pour envoyer le mail, il suffit de moddifier le fichier "send_email.py" qui nous
 Il est conseiller de le modifier et de le tester avec visual studio avant de le téléverser dans le BBG.
 1) Ouverture du fichier dans visualstudio en python.
 2) Modification des éléments entre parentèse.
-
-<img width="444" height="95" alt="image" src="https://github.com/user-attachments/assets/0f3f9fc5-c6a4-4ae2-96fe-af3ad05a8e0c" />
+Image 22
 
 2.1) Explication sur ce qui doit être modifié.
 - server = smtplib.SMTP("mail.etml-es.ch") --- Veuillez indiquer le nom de serveur ainsi que son port sortant (587).
