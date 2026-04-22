@@ -186,8 +186,34 @@ Image 23
 Image 24
 
 3) Le code du main est utilisé dans le tp_emsy pour n'avoir qu'un main 
+Il y a une codition qui est demandé "Le but est d’envoyer un e-mail d’alarme lorsqu’une valeur limite est dépassée (28°C)"
+Pour cela une condition "if" est utilisé si la température est au dessu de 28 alors l'e-mail sera envoyé
+Le "subject" est l'object de l'e-mail dans notre cas "Aletre température"
+Puis l'écriture du message est fait dans un tableau "message" qui contientle message d'alerte avec toutes les mesures données
+Enfin envoyer notre tableau "message" et le "subject dans le send_email sans oublier l'adresse mail de reception
+ATTENTION en même temps de donner les valeurs dans le send_email faire l'appel de fonction de l'envoie
+Image 25
+Image 26
 
--Execution Automatique
+-Capture température
+Une bonne partie du code à déjà été éffectuée, le travail consiste à faire le calcul et écrire le résultat dans un fichier .csv
+
+1) Opération mathématique
+l'opération à été donnée dans la consigne il suffit d'ajouter les opérations mathématiques
+Image 26
+
+2)Main
+En premier afficher un texte pour prouver que le main est éxecuté
+Appel de la fonction des mesures pour prendre les valeurs de la température et l'humidité
+Appel de la fonction mathion mathématique
+Arrondissement des valeurs
+Affichage des valeurs en printf
+Réception de la date et de l'heur dans un tableau avec la température l'humidité et le dp arrondi
+écriture du tableau dans le fichier .csv
+Image 27
+
+
+
 
 
 
