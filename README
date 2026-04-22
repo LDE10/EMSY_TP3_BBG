@@ -98,24 +98,27 @@ la commande ip a est utilisé pour connaitre les différente interface résaux
 la commande ifconfi est utilisée pour affiché les inteface résaux, mais il faut au préalable instaler le paquet "net-tools"
 
 a) 10.228.134.225
-Image 14
+
+<img width="733" height="236" alt="image" src="https://github.com/user-attachments/assets/f03f92b2-2331-4c08-8163-f05ea6e00410" />
 
 b) 10.228.134.225/24 le masque sous réseau est sous la notation"CIDR( Classless Inter Domain Routing).Le /24 indique 24 bit à 1, soit 255.255.255.0
 
 c) 127.0.0.1
-Image 15
+
+<img width="837" height="180" alt="image" src="https://github.com/user-attachments/assets/db74e149-186d-49c8-9941-f32f48c6aa9a" />
 
 d) 10.228.134.1
-Image 16
+
+<img width="637" height="118" alt="image" src="https://github.com/user-attachments/assets/26e26660-be43-4ff4-8159-967eaab23d09" />
 
 e) b4:10:7b:74:b6:36
-Image 17
+<img width="881" height="344" alt="image" src="https://github.com/user-attachments/assets/4e0d068e-1758-40d2-a47d-ead8fa78f306" />
 
 Q11. Qu’est-ce qui s’affiche en retour ?  Commentez. 
 
 Réponse : Current IP Addres: 193.5.240.10
           C'est l'ip public qui sort de l'établissement
-Image 18
+<img width="537" height="187" alt="image" src="https://github.com/user-attachments/assets/b5005dad-8194-4e26-80af-7cd3c45d66dd" />
 
 Q12. Expliquez ce que fait cette commande. Qu’est-ce qui s’affiche en retour ?  Quel est format de la réponse ?  Faites le parallèle avec la réponse à la Q11. 
 
@@ -133,7 +136,7 @@ Réponse : L'adresse du BBG est privé, elle est statyque.
 
 13: Branchement du capteur sur le BBG
 Selon le datasheet du BBG il est conseil de brancher le capteur sur I2C Grove interface(Connecté au peripérique I2C2)
-Image 19
+<img width="1043" height="563" alt="Capture d’écran 2026-03-19 154251" src="https://github.com/user-attachments/assets/e7aa5ca7-2d4f-4552-9f3d-284034141ff0" />
 
 Q14. Le driver SHT4x s'occupe de faire le lien entre L'OS et le capteur.
 Nous avons procédez selon ce shéma bloc:
@@ -192,6 +195,7 @@ Il est conseiller de le modifier et de le tester avec visual studio avant de le 
 
 
 -Execution Automatique
+
 
 
 
