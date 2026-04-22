@@ -168,7 +168,7 @@ Verification du script après execution de celui-ci:
 
 
 -Envoi d'E-MAIL
-Pour envoyer le mail, il suffit de moddifier le fichier "send_email.py" qui nous est fournit.
+Pour envoyer le mail, il suffit de modifier le fichier "send_email.py" qui nous est fournit.
 Il est conseiller de le modifier et de le tester avec visual studio avant de le téléverser dans le BBG.
 1) Ouverture du fichier dans visualstudio en python.
 2) Modification des éléments entre parentèse.
@@ -176,7 +176,7 @@ Image 22
 
 2.1) Explication sur ce qui doit être modifié.
 - server = smtplib.SMTP("mail.etml-es.ch") --- Veuillez indiquer le nom de serveur ainsi que son port sortant (587).
-- server.login("user","password") --- Veuillez indiquer l'adresse mail de réception ainsi qu'un code appareil créer dans cette boite mail.
+- server.login("user","password") --- Veuillez indiquer l'adresse mail de l'envoyeur ainsi qu'un code de connexion à cette adresse
 - sender = "XXX@etml-es.ch" --- Veillez indiquer l'adresse d'envoie.
 
 2.2) RExemple de modification.
