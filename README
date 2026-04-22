@@ -18,21 +18,18 @@ Image 2
    Ouvrir Putty et inserer l'adress ip 10.228.134.52
 
 5: Il faut se connecter au BBG avec le nom USE(Debian) et le mot de passe (temppwd)
-<img width="645" height="425" alt="image" src="https://github.com/user-attachments/assets/0c21642a-ba1b-47dc-81c6-41af39b69213" />
+Image 3
 
 6: Il faut configurer une adresse IP statique
-
-<img width="643" height="422" alt="image" src="https://github.com/user-attachments/assets/d556ce3a-1876-4a7f-a009-fe82c7d6cd83" />
+Image 4
 
 7: Pour sauvegarder le fichier li faut redémarer le BBG avec la commande "Sudo reboot"
 
 8: Ouvrir Putty et inserer l'adress ip 10.228.134.255
-
-<img width="647" height="543" alt="image" src="https://github.com/user-attachments/assets/9cc96b6e-b6cd-445d-8cbd-12cd5e1016a3" />
+Image 5
 
 9: Crer un répertoire avec nos initiales
-
-<img width="555" height="175" alt="image" src="https://github.com/user-attachments/assets/10564d78-f23d-45c7-8cd0-2ea2ff1aff8c" />
+Image 6
 
 10: Editer un fichier texte avec la commande "vi" et le déplacer dans le bon répertoire avec la comande "mv"
 <img width="768" height="85" alt="image" src="https://github.com/user-attachments/assets/512f441e-cdcd-487e-9da8-63788ed193d4" />
