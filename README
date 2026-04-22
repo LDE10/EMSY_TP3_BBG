@@ -98,8 +98,7 @@ la commande ip a est utilisé pour connaitre les différente interface résaux
 la commande ifconfi est utilisée pour affiché les inteface résaux, mais il faut au préalable instaler le paquet "net-tools"
 
 a) 10.228.134.225
-
-<img width="733" height="236" alt="image" src="https://github.com/user-attachments/assets/f03f92b2-2331-4c08-8163-f05ea6e00410" />
+Image 14
 
 b) 10.228.134.225/24 le masque sous réseau est sous la notation"CIDR( Classless Inter Domain Routing).Le /24 indique 24 bit à 1, soit 255.255.255.0
 
