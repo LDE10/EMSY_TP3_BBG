@@ -2,7 +2,7 @@
 
 INSTALLATION LINUX
 1: Dans une Vm windows utiliser le programme Win32 afin d'importer une image (.img) dans la carte SD fournie.
-
+image 1
 
 2: Une fois l'image importée, brancher la carte SD dans le BBG, appuyer sur le bouton "USER" et brancher l'alimentation (Attention cette opération doit être éffectuée en même temps et peux prendre un certain temps au démarrage).
 Une fois l'opération bien effectuée le processus de flash est indiqué par un chenillard sur les leds, puis s'allument toute pour enfin s'éteindre.
@@ -13,37 +13,32 @@ Le BBG démarre son OS Linux stocké dans sa flash interne.
 REGLAGE IP STATIQUE  
 4: Brancher le BBG sur le réseau bleu.
  Dans la même Vm windows télécharger l'application "Advanced IP Scanner", cette application va servir à lire l'adresse IP du BBG.
- <img width="933" height="546" alt="image" src="https://github.com/user-attachments/assets/e9088828-df82-4b57-9b5b-b1b5498521e2" />
+Image 2
 
    Ouvrir Putty et inserer l'adress ip 10.228.134.52
 
 5: Il faut se connecter au BBG avec le nom USE(Debian) et le mot de passe (temppwd)
-<img width="645" height="425" alt="image" src="https://github.com/user-attachments/assets/0c21642a-ba1b-47dc-81c6-41af39b69213" />
+Image 3
 
 6: Il faut configurer une adresse IP statique
-
-<img width="643" height="422" alt="image" src="https://github.com/user-attachments/assets/d556ce3a-1876-4a7f-a009-fe82c7d6cd83" />
+Image 4
 
 7: Pour sauvegarder le fichier li faut redémarer le BBG avec la commande "Sudo reboot"
 
 8: Ouvrir Putty et inserer l'adress ip 10.228.134.255
-
-<img width="647" height="543" alt="image" src="https://github.com/user-attachments/assets/9cc96b6e-b6cd-445d-8cbd-12cd5e1016a3" />
+Image 5
 
 9: Crer un répertoire avec nos initiales
-
-<img width="555" height="175" alt="image" src="https://github.com/user-attachments/assets/10564d78-f23d-45c7-8cd0-2ea2ff1aff8c" />
+Image 6
 
 10: Editer un fichier texte avec la commande "vi" et le déplacer dans le bon répertoire avec la comande "mv"
-<img width="768" height="85" alt="image" src="https://github.com/user-attachments/assets/512f441e-cdcd-487e-9da8-63788ed193d4" />
+Image 7
 
 11: dans le navigateur accédez à http://checkip.dyndns.org
-
-<img width="547" height="189" alt="image" src="https://github.com/user-attachments/assets/4515f0db-f0a5-4247-ab34-850eba5e54fa" />
+Image 8
 
 12: On utilise la commande wget -qO- http://checkip.dyndns.org sur le BBG
-<img width="842" height="59" alt="image" src="https://github.com/user-attachments/assets/13d916f0-c2fe-4abc-852d-6774839a6af4" />
-
+Image 9
 Réponse aux questions
 
 Q1. Comment pouvez-vous déterminer cette adresse IP ? 
@@ -65,7 +60,7 @@ Réponse : Le protocole SSH s'exécute en parallèle du protocole TCP. Le port p
 Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis une autre machine connectée au même réseau ? 
 
 Réponse : Aller dans les commande windows, puis écrire la commande "ping (adresse IP)" . (envoie une donnée et mesure le temp quel met pour revenir)
-<img width="1069" height="580" alt="image" src="https://github.com/user-attachments/assets/125428e9-6592-47e4-b287-9797fb05c58a" />
+Image 10
 
 Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ?  Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 
@@ -76,17 +71,15 @@ Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ? Qui a les d
 
 Réponse : La commande utilisée pour créer un répertoire est "mkdir".
           Il n'y a que l'user (administrateur) ayant créer le répertoire, qui à les droits d'écriture.
-          
-<img width="813" height="543" alt="image" src="https://github.com/user-attachments/assets/ab677767-5b30-4164-9032-efbc88a6c1ac" />
+Image 11
 
 Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?  
 
 Réponse : Dans le répertoire du fichier, La commande "cat <nom du fichier>" permet d'afficher tout le contenu de celui-ci.
-<img width="545" height="36" alt="image" src="https://github.com/user-attachments/assets/2d17a505-2ac6-4a64-a12a-f337ca178a1f" />
+Image 12
 
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ? Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec sl ou cmatrix) ?
-
-<img width="575" height="296" alt="image" src="https://github.com/user-attachments/assets/33f3482e-1cdf-4a41-a49c-c2853a3f68c2" />
+Image 13
 
 Réponse : La commande "apt list" permet lister tous les paquets disponibles et installés, sela permet de vérifier si le logiciel y figure. 
           La commande "sudo apt install <nom logiciel>" permet l'instalation d'un logiciel.
@@ -105,27 +98,24 @@ la commande ip a est utilisé pour connaitre les différente interface résaux
 la commande ifconfi est utilisée pour affiché les inteface résaux, mais il faut au préalable instaler le paquet "net-tools"
 
 a) 10.228.134.225
-
-<img width="733" height="236" alt="image" src="https://github.com/user-attachments/assets/f03f92b2-2331-4c08-8163-f05ea6e00410" />
+Image 14
 
 b) 10.228.134.225/24 le masque sous réseau est sous la notation"CIDR( Classless Inter Domain Routing).Le /24 indique 24 bit à 1, soit 255.255.255.0
 
 c) 127.0.0.1
-
-<img width="837" height="180" alt="image" src="https://github.com/user-attachments/assets/db74e149-186d-49c8-9941-f32f48c6aa9a" />
+Imagr 15
 
 d) 10.228.134.1
-
-<img width="637" height="118" alt="image" src="https://github.com/user-attachments/assets/26e26660-be43-4ff4-8159-967eaab23d09" />
+Image 16
 
 e) b4:10:7b:74:b6:36
-<img width="881" height="344" alt="image" src="https://github.com/user-attachments/assets/4e0d068e-1758-40d2-a47d-ead8fa78f306" />
+Imagr 17
 
 Q11. Qu’est-ce qui s’affiche en retour ?  Commentez. 
 
 Réponse : Current IP Addres: 193.5.240.10
           C'est l'ip public qui sort de l'établissement
-<img width="537" height="187" alt="image" src="https://github.com/user-attachments/assets/b5005dad-8194-4e26-80af-7cd3c45d66dd" />
+Image 18
 
 Q12. Expliquez ce que fait cette commande. Qu’est-ce qui s’affiche en retour ?  Quel est format de la réponse ?  Faites le parallèle avec la réponse à la Q11. 
 
@@ -143,12 +133,11 @@ Réponse : L'adresse du BBG est privé, elle est statyque.
 
 13: Branchement du capteur sur le BBG
 Selon le datasheet du BBG il est conseil de brancher le capteur sur I2C Grove interface(Connecté au peripérique I2C2)
-<img width="1043" height="563" alt="Capture d’écran 2026-03-19 154251" src="https://github.com/user-attachments/assets/e7aa5ca7-2d4f-4552-9f3d-284034141ff0" />
+Image 19
 
 Q14. Le driver SHT4x s'occupe de faire le lien entre L'OS et le capteur.
 Nous avons procédez selon ce shéma bloc:
-
-<img width="1920" height="1080" alt="dw" src="https://github.com/user-attachments/assets/152d673e-23be-4aeb-9786-454dd82e3f99" />
+Image 20
 
 Le scripte fourni dans le support de cours, est lu par l'interpréteur(python3) ensuit selui ci va tranmettre le code en format linux sur le driver qui va piloter le capteur.
 1)Script fournis: tp_emsy.py
@@ -173,8 +162,7 @@ Pour enregistrer nos valeur dans le fichier TempLog.csv, il convient d'abord de 
 On peut aussi le faire avec la commande "nano TempLog.csv". Nous avons utiliser la commande touch par curiosité.
 
 Verification après création:
-
-<img width="322" height="145" alt="Verification fichier csv" src="https://github.com/user-attachments/assets/5feba1eb-2f24-40c3-bb96-3bf32b1bec43" />
+Imagre 21
 
 Verification du script après execution de celui-ci:
 
@@ -202,6 +190,7 @@ Il est conseiller de le modifier et de le tester avec visual studio avant de le 
 
 
 -Execution Automatique
+
 
 
 
