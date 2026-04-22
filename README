@@ -157,51 +157,11 @@ Le scripte fourni dans le support de cours, est lu par l'interpréteur(python3) 
 4)Instalation du driver plus spécifique pour une comunication "API" en l'OS et le capteur: sensirion-i2c-driver sensirion-i2c-sht via la comande "pip3 install sensirion-i2c-driver sensirion-i2c-sht"
 
 14. Conception du script Python
+Le scrypt est disponible dans le dossier TP_EMSY.
 
 15. Documentation du code
 
-Eratum:
-Q10 c) Valleur adresse réseau = masquage de l'adresse ip avec le masque de sous réseau, soit 10.228.134.255 Masqué par 255.255.255.0 = 10.228.134.0
-    L'adress 127.0.0.1 représente le localhost (un serveur éxecuté sur notre propre ordinateur) c'ette adress IP est généralement réservé à un loopback.
-    Pour résumé, c'est l'adresse d'une interface virtuel. Cette interface est utilisé pour tester des programmes et des applications web, on peut aussi l'utiliser pour bloquer des sites web dangereux.
-
-
-Partie B Automatisation
-
--Enregistrement CSV
-Pour enregistrer nos valeur dans le fichier TempLog.csv, il convient d'abord de créer celui-ci dans le répertoire /home/debian avec la commande "touch TempLog.csv"
-On peut aussi le faire avec la commande "nano TempLog.csv". Nous avons utiliser la commande touch par curiosité.
-
-Verification après création:
-
-<img width="322" height="145" alt="Verification fichier csv" src="https://github.com/user-attachments/assets/5feba1eb-2f24-40c3-bb96-3bf32b1bec43" />
-
-Verification du script après execution de celui-ci:
-
-
--Envoi d'E-MAIL
-Pour envoyer le mail, il suffit de moddifier le fichier "send_email.py" qui nous est fournit.
-Il est conseiller de le modifier et de le tester avec visual studio avant de le téléverser dans le BBG.
-1) Ouverture du fichier dans visualstudio en python.
-2) Modification des éléments entre parentèse.
-
-<img width="444" height="95" alt="image" src="https://github.com/user-attachments/assets/0f3f9fc5-c6a4-4ae2-96fe-af3ad05a8e0c" />
-
-2.1) Explication sur ce qui doit être modifié.
-- server = smtplib.SMTP("mail.etml-es.ch") --- Veuillez indiquer le nom de serveur ainsi que son port sortant (587).
-- server.login("user","password") --- Veuillez indiquer l'adresse mail de réception ainsi qu'un code appareil créer dans cette boite mail.
-- sender = "XXX@etml-es.ch" --- Veillez indiquer l'adresse d'envoie.
-
-2.2) Exemple de modification.
-
-<img width="673" height="115" alt="image" src="https://github.com/user-attachments/assets/1c49fc0e-5c79-4cc4-a223-85682b3cdb97" />
-
-2.3) Resultats devant être obtenu après modification sur la boîte mail.
-
-<img width="626" height="308" alt="image" src="https://github.com/user-attachments/assets/2100d10e-12ef-43d7-8798-015807926238" />
-
-
-3) Le code du main est utilisé dans le tp_emsy pour n'avoir qu'un main.
+Le code du main est utilisé dans le tp_emsy pour n'avoir qu'un main.
 Il y a une codition qui est demandée "Le but est d’envoyer un e-mail d’alarme lorsqu’une valeur limite est dépassée (28°C)".
 Pour cela une condition "if" est utilisée si la température est au dessu de 28° alors l'e-mail sera envoyé.
 Le "subject" est l'object de l'e-mail dans notre cas "Aletre température".
@@ -230,3 +190,61 @@ ATTENTION un ordre à été demandé : <date>,<heure>,<température>,<humidité>
 Image 29
 Image 30
 Image 31
+
+
+Eratum:
+Q10 c) Valleur adresse réseau = masquage de l'adresse ip avec le masque de sous réseau, soit 10.228.134.255 Masqué par 255.255.255.0 = 10.228.134.0
+    L'adress 127.0.0.1 représente le localhost (un serveur éxecuté sur notre propre ordinateur) c'ette adress IP est généralement réservé à un loopback.
+    Pour résumé, c'est l'adresse d'une interface virtuel. Cette interface est utilisé pour tester des programmes et des applications web, on peut aussi l'utiliser pour bloquer des sites web dangereux.
+
+
+Partie B Automatisation
+
+-Enregistrement CSV
+Pour enregistrer nos valeur dans le fichier TempLog.csv, il convient d'abord de créer celui-ci dans le répertoire /home/debian avec la commande "touch TempLog.csv"
+On peut aussi le faire avec la commande "nano TempLog.csv". Nous avons utiliser la commande touch par curiosité.
+
+Verification après création:
+
+<img width="322" height="145" alt="Verification fichier csv" src="https://github.com/user-attachments/assets/5feba1eb-2f24-40c3-bb96-3bf32b1bec43" />
+
+Verification du script après execution de celui-ci:
+
+------mettre image--------------
+
+-Envoi d'E-MAIL
+Pour envoyer le mail, il suffit de moddifier le fichier "send_email.py" qui nous est fournit.
+Il est conseiller de le modifier et de le tester avec visual studio avant de le téléverser dans le BBG.
+1) Ouverture du fichier dans visualstudio en python.
+2) Modification des éléments entre parentèse.
+
+<img width="444" height="95" alt="image" src="https://github.com/user-attachments/assets/0f3f9fc5-c6a4-4ae2-96fe-af3ad05a8e0c" />
+
+2.1) Explication sur ce qui doit être modifié.
+- server = smtplib.SMTP("mail.etml-es.ch") --- Veuillez indiquer le nom de serveur ainsi que son port sortant (587).
+- server.login("user","password") --- Veuillez indiquer l'adresse mail de réception ainsi qu'un code appareil créer dans cette boite mail.
+- sender = "XXX@etml-es.ch" --- Veillez indiquer l'adresse d'envoie.
+
+2.2) Exemple de modification.
+
+<img width="673" height="115" alt="image" src="https://github.com/user-attachments/assets/1c49fc0e-5c79-4cc4-a223-85682b3cdb97" />
+
+2.3) Resultats devant être obtenu après modification sur la boîte mail.
+
+<img width="626" height="308" alt="image" src="https://github.com/user-attachments/assets/2100d10e-12ef-43d7-8798-015807926238" />
+
+-Execution Automatique
+Pour lancer notre script à intérval régulier, on utilise la tâche/commande "crontab" (crono Tableau)
+Explication sur l'utilisation de la commande "crontab":
+- "crontab -l permet d'afficher la liste des tâches dégà existantes.
+image 32
+- "crontab -e permet de pouvoir étider une tâche selon les editeur de texte disponible.
+il convient t'abord de sélectionner un éditeur de texte.
+image 35
+
+Dans l'éditeur de texte il faut donner er 1er la notion de temps 
+image 33
+
+En second le fichier source de l'executeur(python3) et le fichier source du scrypt à executer
+image 34
+
