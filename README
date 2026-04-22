@@ -32,15 +32,13 @@ Image 5
 Image 6
 
 10: Editer un fichier texte avec la commande "vi" et le déplacer dans le bon répertoire avec la comande "mv"
-<img width="768" height="85" alt="image" src="https://github.com/user-attachments/assets/512f441e-cdcd-487e-9da8-63788ed193d4" />
+Image 7
 
 11: dans le navigateur accédez à http://checkip.dyndns.org
-
-<img width="547" height="189" alt="image" src="https://github.com/user-attachments/assets/4515f0db-f0a5-4247-ab34-850eba5e54fa" />
+Image 8
 
 12: On utilise la commande wget -qO- http://checkip.dyndns.org sur le BBG
-<img width="842" height="59" alt="image" src="https://github.com/user-attachments/assets/13d916f0-c2fe-4abc-852d-6774839a6af4" />
-
+Image 9
 Réponse aux questions
 
 Q1. Comment pouvez-vous déterminer cette adresse IP ? 
