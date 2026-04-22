@@ -60,7 +60,7 @@ Réponse : Le protocole SSH s'exécute en parallèle du protocole TCP. Le port p
 Q5. Si vous n’arriviez pas à vous connecter au BBG, quelle(s) commande(s), testeriez-vous depuis une autre machine connectée au même réseau ? 
 
 Réponse : Aller dans les commande windows, puis écrire la commande "ping (adresse IP)" . (envoie une donnée et mesure le temp quel met pour revenir)
-<img width="1069" height="580" alt="image" src="https://github.com/user-attachments/assets/125428e9-6592-47e4-b287-9797fb05c58a" />
+Image 10
 
 Q6. A la suite de votre connexion, dans quel répertoire vous trouvez-vous ?  Quelle(s) commande(s) utilisez-vous pour le déterminer ?
 
