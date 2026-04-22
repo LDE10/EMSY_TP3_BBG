@@ -1,5 +1,5 @@
-__author__ = "Pouly Steeve"
-__version__ = "0.1"
+__author__ = "Pouly Steeve et Luc Derre"
+__version__ = "1.0"
 __maintainer__ = "Pouly Steeve"
 __email__ = "steve.pouly@eduvaud.ch"
 __status__ = "Prototype"
@@ -70,13 +70,13 @@ def csv_write_row(file_path, data_row): #Fonction d'écriture dans le dossier .C
 if __name__ == "__main__":  # Runs only if called as a script but not if imported
     print("Hello and welcome to EMSY")
     temperature, humidity = read_sensor()                   #Appel de la fonction de lecture de température et humidité
+
     temperature = round(temperature.degrees_celsius, 2)     #Arrondi la valeur de température 
     humidity = round(humidity.percent_rh, 2)                #Arrondi la valeur d'humidité 
-    
+
     dew_point = calculate_dew_point(temperature, humidity)  #Appel de la fonction de calcul en donnant les informations
     dp = round(dew_point, 2)                                #Arrondi la valeur du point rosée 
 
-    
     print("Temperature :",temperature, "°C")                #Afficher la temperature
     print("Humidite relative :", humidity, "%")             #Afficher la valeur de l'humidite relative
     print("Point de Rosee :",dp, "°C")                      #Afficher le point de rosée

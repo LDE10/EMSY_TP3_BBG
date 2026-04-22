@@ -1,5 +1,5 @@
-__author__ = "Pouly Steeve"
-__version__ = "0.1"
+__author__ = "Pouly Steeve et Luc Derre"
+__version__ = "1.0"
 __maintainer__ = "Pouly Steeve"
 __email__ = "steve.pouly@eduvaud.ch"
 __status__ = "Production"
