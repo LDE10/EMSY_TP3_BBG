@@ -71,17 +71,15 @@ Q7. Quelle(s) commande(s) utilisez-vous pour créer ce répertoire ? Qui a les d
 
 Réponse : La commande utilisée pour créer un répertoire est "mkdir".
           Il n'y a que l'user (administrateur) ayant créer le répertoire, qui à les droits d'écriture.
-          
-<img width="813" height="543" alt="image" src="https://github.com/user-attachments/assets/ab677767-5b30-4164-9032-efbc88a6c1ac" />
+Image 11
 
 Q8. Comment pouvez-vous contrôler ce que vous avez écrit sans réouvrir le fichier en écriture ?  
 
 Réponse : Dans le répertoire du fichier, La commande "cat <nom du fichier>" permet d'afficher tout le contenu de celui-ci.
-<img width="545" height="36" alt="image" src="https://github.com/user-attachments/assets/2d17a505-2ac6-4a64-a12a-f337ca178a1f" />
+Image 12
 
 Q9. Comment contrôlez-vous qu’un logiciel soit bien installé ? Quelle(s) est/sont les commandes pour installer un logiciel (vous pouvez tester par exemple avec sl ou cmatrix) ?
-
-<img width="575" height="296" alt="image" src="https://github.com/user-attachments/assets/33f3482e-1cdf-4a41-a49c-c2853a3f68c2" />
+Image 13
 
 Réponse : La commande "apt list" permet lister tous les paquets disponibles et installés, sela permet de vérifier si le logiciel y figure. 
           La commande "sudo apt install <nom logiciel>" permet l'instalation d'un logiciel.
