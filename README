@@ -133,7 +133,7 @@ Réponse : L'adresse du BBG est privé, elle est statyque.
 
 13: Branchement du capteur sur le BBG
 Selon le datasheet du BBG il est conseil de brancher le capteur sur I2C Grove interface(Connecté au peripérique I2C2)
-<img width="1043" height="563" alt="Capture d’écran 2026-03-19 154251" src="https://github.com/user-attachments/assets/e7aa5ca7-2d4f-4552-9f3d-284034141ff0" />
+Image 19
 
 Q14. Le driver SHT4x s'occupe de faire le lien entre L'OS et le capteur.
 Nous avons procédez selon ce shéma bloc:
