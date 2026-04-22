@@ -162,7 +162,7 @@ Pour enregistrer nos valeur dans le fichier TempLog.csv, il convient d'abord de 
 On peut aussi le faire avec la commande "nano TempLog.csv". Nous avons utiliser la commande touch par curiosité.
 
 Verification après création:
-Imagre 21
+Image 21
 
 Verification du script après execution de celui-ci:
 
