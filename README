@@ -200,7 +200,7 @@ Une bonne partie du code à déjà été éffectuée, le travail consiste à fai
 
 1) Opération mathématique
 l'opération à été donnée dans la consigne il suffit d'ajouter les opérations mathématiques
-Image 26
+Image 27
 
 2)Main
 En premier afficher un texte pour prouver que le main est éxecuté
@@ -209,8 +209,10 @@ Appel de la fonction mathion mathématique
 Arrondissement des valeurs
 Affichage des valeurs en printf
 Réception de la date et de l'heur dans un tableau avec la température l'humidité et le dp arrondi
+ATTENTION un ordre à été demandé : <date>,<heure>,<température>,<humidité>,<point de rosée> 
 écriture du tableau dans le fichier .csv
-Image 27
+Image 28
+Image 29
 
 
 
