@@ -2,7 +2,7 @@
 
 INSTALLATION LINUX
 1: Dans une Vm windows utiliser le programme Win32 afin d'importer une image (.img) dans la carte SD fournie.
-<img width="540" height="382" alt="image" src="https://github.com/user-attachments/assets/d734e362-2e7e-4993-bf5b-25c33c836d54" />
+
 
 2: Une fois l'image importée, brancher la carte SD dans le BBG, appuyer sur le bouton "USER" et brancher l'alimentation (Attention cette opération doit être éffectuée en même temps et peux prendre un certain temps au démarrage).
 Une fois l'opération bien effectuée le processus de flash est indiqué par un chenillard sur les leds, puis s'allument toute pour enfin s'éteindre.
