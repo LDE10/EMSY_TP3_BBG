@@ -165,14 +165,14 @@ Verification après création:
 Image 21
 
 Verification du script après execution de celui-ci:
-
+Image 22
 
 -Envoi d'E-MAIL
 Pour envoyer le mail, il suffit de modifier le fichier "send_email.py" qui nous est fournit.
 Il est conseiller de le modifier et de le tester avec visual studio avant de le téléverser dans le BBG.
 1) Ouverture du fichier dans visualstudio en python.
 2) Modification des éléments entre parentèse.
-Image 22
+Image 23
 
 2.1) Explication sur ce qui doit être modifié.
 - server = smtplib.SMTP("mail.etml-es.ch") --- Veuillez indiquer le nom de serveur ainsi que son port sortant (587).
@@ -180,10 +180,10 @@ Image 22
 - sender = "XXX@etml-es.ch" --- Veillez indiquer l'adresse d'envoie.
 
 2.2) RExemple de modification.
-Image 23
+Image 24
 
 2.3) Resultats devant être obtenu après modification sur la boîte mail.
-Image 24
+Image 25
 
 3) Le code du main est utilisé dans le tp_emsy pour n'avoir qu'un main 
 Il y a une codition qui est demandé "Le but est d’envoyer un e-mail d’alarme lorsqu’une valeur limite est dépassée (28°C)"
@@ -192,15 +192,15 @@ Le "subject" est l'object de l'e-mail dans notre cas "Aletre température"
 Puis l'écriture du message est fait dans un tableau "message" qui contientle message d'alerte avec toutes les mesures données
 Enfin envoyer notre tableau "message" et le "subject dans le send_email sans oublier l'adresse mail de reception
 ATTENTION en même temps de donner les valeurs dans le send_email faire l'appel de fonction de l'envoie
-Image 25
 Image 26
+Image 27
 
 -Capture température
 Une bonne partie du code à déjà été éffectuée, le travail consiste à faire le calcul et écrire le résultat dans un fichier .csv
 
 1) Opération mathématique
 l'opération à été donnée dans la consigne il suffit d'ajouter les opérations mathématiques
-Image 27
+Image 28
 
 2)Main
 En premier afficher un texte pour prouver que le main est éxecuté
@@ -211,9 +211,9 @@ Affichage des valeurs en printf
 Réception de la date et de l'heur dans un tableau avec la température l'humidité et le dp arrondi
 ATTENTION un ordre à été demandé : <date>,<heure>,<température>,<humidité>,<point de rosée> 
 écriture du tableau dans le fichier .csv
-Image 28
 Image 29
 Image 30
+Image 31
 
 
 
