@@ -1,4 +1,4 @@
-# EMSY_TP3_BBG LDE_SPY
+# EMSY_TP3_BBG LDE_SPY - Version 1.2
 
 INSTALLATION LINUX
 1: Dans une Vm windows utiliser le programme Win32 afin d'importer une image (.img) dans la carte SD fournie.
@@ -168,7 +168,8 @@ Le "subject" est l'object de l'e-mail dans notre cas "Aletre température".
 Puis l'écriture du message est fait dans un tableau "message" qui contientle message d'alerte avec toutes les mesures données.
 Enfin envoyer notre tableau "message" et le "subject dans le send_email sans oublier l'adresse mail de reception.
 ATTENTION en même temps de donner les valeurs dans le send_email faire l'appel de fonction d'envoie.
-![image 26](/Image/Image 26.png)
+
+![image 26](/Image/Image 26.png "image 26")
 
 
 Image 26
