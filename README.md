@@ -190,8 +190,11 @@ Affichage des valeurs en printf.
 Réception de la date et de l'heure dans un tableau avec la température l'humidité et le dp arrondi.
 ATTENTION un ordre à été demandé : <date>,<heure>,<température>,<humidité>,<point de rosée>. 
 écriture du tableau dans le fichier .csv
+
 ![image 29](Image/Image_29.png "image 29")
+
 ![image 30](Image/Image_30.png "image 30")
+
 ![image 31](Image/Image_31.png "image 31")
 
 
@@ -241,16 +244,16 @@ Pour lancer notre script à intérval régulier, on utilise la tâche/commande "
 Explication sur l'utilisation de la commande "crontab":
 - "crontab -l permet d'afficher la liste des tâches dégà existantes.
 
-![image 32](Sreen/32.png "image 32")
+![image 32](Sreen/Image_32.png "image 32")
 
 - "crontab -e permet de pouvoir étider une tâche selon les editeur de texte disponible.
 il convient t'abord de sélectionner un éditeur de texte.
 
-![image 36](Sreen/36.png "image 36")
+![image 36](Sreen/Image_36.png "image 36")
 
 Dans l'éditeur de texte il faut donner er 1er la notion de temps 
-![image 35](Sreen/35.png "image 35")
+![image 35](Sreen/Image_35.png "image 35")
 
 En second le fichier source de l'executeur(python3) et le fichier source du scrypt à executer
-![image 34](Sreen/34.png "image 34")
+![image 34](Sreen/Image_34.png "image 34")
 
