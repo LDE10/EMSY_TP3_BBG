@@ -168,6 +168,9 @@ Le "subject" est l'object de l'e-mail dans notre cas "Aletre température".
 Puis l'écriture du message est fait dans un tableau "message" qui contientle message d'alerte avec toutes les mesures données.
 Enfin envoyer notre tableau "message" et le "subject dans le send_email sans oublier l'adresse mail de reception.
 ATTENTION en même temps de donner les valeurs dans le send_email faire l'appel de fonction d'envoie.
+![image 26](/Image/Image 26.png)
+
+
 Image 26
 Image 27
 
